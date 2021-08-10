@@ -1,0 +1,59 @@
+@import 'colors';
+
+// paddings
+$btn-padding : 8px 25px;
+
+.btn-prime{
+     padding : $btn-padding;
+     background-color: $prime;
+     color: white;
+     border-radius : 3px;
+     border: none;
+     cursor: pointer;
+     font-weight: 700;
+     transition: 0.3s ease-in-out;
+     text-decoration: none;
+
+     &:hover{
+          background-color: $blue-dark;
+          transition: 0.3s ease-in-out;
+
+     }
+}
+
+
+.btn-warn{
+     padding : $btn-padding;
+     background-color: $warn;
+     color: white;
+     border-radius : 3px;
+     border: none;
+     cursor: pointer;
+     font-weight: 700;
+     transition: 0.3s ease-in-out;
+     text-decoration: none;
+
+     &:hover{
+          background-color: $yellow-dark;
+          transition: 0.3s ease-in-out;
+
+     }
+}
+
+.btn-sucess{
+     padding : $btn-padding;
+     background-color: $success;
+     color: white;
+     border-radius : 3px;
+     border: none;
+     cursor: pointer;
+     font-weight: 700;
+     transition: 0.3s ease-in-out;
+     text-decoration: none;
+
+     &:hover{
+          background-color: $green-dark;
+          transition: 0.3s ease-in-out;
+
+     }
+}
