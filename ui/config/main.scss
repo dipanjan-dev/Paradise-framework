@@ -1,0 +1,72 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import 'colors';
+@import 'margin';
+@import 'padding';
+@import 'text';
+@import 'button';
+@import 'card';
+@import 'grid';
+@import 'inputs';
+@import 'navbar';
+@import 'accrodion';
+@import 'alerts';
+@import 'scroll-indicate';
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+
+body{
+
+     font-family: 'Poppins', sans-serif;
+}
+
+.box-body {
+     margin : 30px;
+}
+.center-box{
+     position: absolute;
+     top : 50%;
+     left : 50%;
+     transform: translate(-50%, -50%);
+}
+.shadow{
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.shadow-sm{
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shadow-lg{
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shadow-hard{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bg-dark{
+     background-color: black;
+}
+.bg-prime{
+     background-color: $prime;
+}
+.bg-light{
+     background-color:#f0f0f0;
+}
+.bg-transparent{
+     background: #f0f0f000;
+}
+.text-light{
+     color: white;
+}
+.text-dark{
+     color: black;
+}

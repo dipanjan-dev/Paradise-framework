@@ -1,0 +1,90 @@
+@import 'colors';
+
+$hs-1 : 16px;
+$hs-2 : 18px;
+$hs-3 : 25px;
+$hs-4 : 28px;
+$hs-5 : 35px;
+
+.hs-1{
+     font-size: $hs-1;
+}
+.hs-2{
+     font-size: $hs-2;
+}
+.hs-3{
+     font-size: $hs-3;
+}
+.hs-4{
+     font-size: $hs-4;
+}
+.hs-5{
+     font-size: $hs-5;
+}
+
+// paragraph
+
+$text-1 : 12px;
+$text-2 : 14px;
+$text-3 : 16px;
+
+.para-1{
+     font-size: $text-1;
+}
+.para-2{
+     font-size: $text-2;
+}
+.para-3{
+     font-size: $text-3;
+}
+
+// text-mute
+
+.text-mute{
+     color: $gray;
+}
+.text-magic{
+     color: #516c8d;
+}
+
+
+// text-alignment 
+
+.text-center{
+     text-align:center;
+}
+.text-justify{
+     text-align: justify;
+}
+.text-right{
+     text-align: right;
+}
+.text-left{
+     text-align: left;
+}
+
+// text-color
+
+.text-is-prime{
+     color: $prime;
+}
+.text-is-warn{
+     color: $warn;
+}
+.text-is-success{
+     color: $success;
+}
+.text-is-charcoal{
+     color: $charcoal;
+}
+.text-is-light{
+     color: $light;
+}
+.text-is-dark{
+     color: $dark;
+}
+
+// signature text : 
+.text-signature{
+     font-family: 'Dancing Script', cursive;
+}

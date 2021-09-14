@@ -1,0 +1,99 @@
+@import 'colors';
+
+.alert-denger {
+    padding: 20px;
+    background-color: $red;
+    color: white;
+    width: auto;
+    z-index: 999999;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+.alert-success {
+    padding: 20px;
+    background-color: $success;
+    color: white;
+    width: auto; ;
+    z-index: 999999;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+.alert-prime {
+    padding: 20px;
+    background-color: $prime;
+    color: white;
+    width: auto; ;
+    z-index: 999999;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+.alert-dark {
+    padding: 20px;
+    background-color: $dark;
+    color: white;
+    width: auto ;
+    z-index: 999999;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+.alert-light{
+    padding: 20px;
+    background-color: $light;
+    color: #000000;
+    width: auto;
+    z-index: 999999;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+  
+  
+.alert-close-dark {
+    margin-left: 15px;
+    color: $dark;
+    font-weight: bold;
+    float: right !important;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+.alert-close-light {
+    margin-left: 15px;
+    color: $light;
+    font-weight: bold;
+    float: right !important;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.alert-close{
+    margin-left: 15px;
+    color: $light;
+    font-weight: bold;
+    float: right !important;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}

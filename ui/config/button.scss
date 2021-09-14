@@ -1,0 +1,113 @@
+@import 'colors';
+
+// paddings
+$btn-padding : 14px 28px;
+
+.btn{
+     border: none;
+     padding: $btn-padding;
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 2px;
+     margin-right: 2px;
+     border-radius : 3px;
+     text-decoration: none;
+     transition: 0.3s ease-in-out;
+     &:hover{
+          transition: 0.3s ease-in-out;
+     }
+}
+
+.style-prime{
+     background-color: $prime;
+     color: white;
+     &:hover{
+          background-color: $blue-dark;
+     }
+}
+
+
+.style-warn{
+     background-color: $warn;
+     color: white;
+     &:hover{
+          background-color: $yellow-dark;
+          transition: 0.3s ease-in-out;
+     }
+}
+
+.style-sucess{
+     background-color: $success;
+     color: white;
+     &:hover{
+          background-color: $green-dark;
+     }
+}
+
+.style-denger{
+     background-color: $denger;
+     color: white;
+     &:hover{
+          background-color: $dark-red;
+     }
+}
+.style-light{
+     background-color: $light;
+     color: $dark;
+     &:hover{
+          background-color: rgb(221, 221, 221);
+     }
+}
+
+.style-dark{
+     background-color: $dark;
+     color: $light;
+     &:hover{
+          background-color: $charcoal;
+     }
+}
+.style-charcoal{
+     background-color: $charcoal;
+     color: $light;
+     &:hover{
+          background-color: $charcoal;
+     }
+}
+
+// outline button
+
+.style-outline-prime{
+     border: 2px solid $prime;
+     color: $prime;
+     background: transparent;
+}
+
+.style-outline-warn{
+     border: 2px solid $warn;
+     color: $warn;
+     background: transparent;
+}
+
+.style-outline-denger{
+     border: 2px solid $denger;
+     color: $denger;
+     background: transparent;
+}
+
+.style-outline-light{
+     border: 2px solid $light;
+     color: $light;
+     background: transparent;
+}
+
+.style-outline-dark{
+     border: 2px solid $dark;
+     color: $dark;
+     background: transparent;
+}
+.style-outline-charcoal{
+     border: 2px solid $charcoal;
+     color: $charcoal;
+     background: transparent;
+}
+
